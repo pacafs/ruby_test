@@ -1,0 +1,70 @@
+{
+	
+	"selectors":[
+		{
+			"parentSelectors":["_root"],
+			"type":"SelectorText",
+			"multiple":false,
+			"id":"Total Visits",
+			"selector":"div.big-text.lt-vlarge-screen",
+			"regex":"",
+			"delay":""
+		},
+		{
+			"parentSelectors":["_root"],
+			"type":"SelectorText",
+			"multiple":false,
+			"id":"Avg. Monthly Visits",
+			"selector":"div.graphtabs-tab.graphtabs-tab--selected div.graphtabs-tab-value",
+			"regex":"",
+			"delay":""
+		},
+		{
+			"parentSelectors":["_root"],
+			"type":"SelectorText",
+			"multiple":false,
+			"id":"Avg. Visit Duration",
+			"selector":"div.graphtabs-tab:nth-of-type(2) div.graphtabs-tab-value",
+			"regex":"",
+			"delay":""
+		},
+		{	
+			"parentSelectors":["_root"],
+			"type":"SelectorText",
+			"multiple":false,
+			"id":"Pages per Visit",
+			"selector":"div.graphtabs-tab:nth-of-type(3) div.graphtabs-tab-value",
+			"regex":"",
+			"delay":""
+		},
+		{	
+			"parentSelectors":["_root"],
+			"type":"SelectorText",
+			"multiple":false,
+			"id":"Bounce Rate",
+			"selector":"div.graphtabs-tab:nth-of-type(4) div.graphtabs-tab-value",
+			"regex":"",
+			"delay":""
+		},
+		{	
+			"parentSelectors":["_root"],
+			"type":"SelectorText",
+			"multiple":false,
+			"id":"Name",
+			"selector":"div.website-header-title",
+			"regex":"",
+			"delay":""
+		}
+	],
+
+	"_id":"testing",
+
+	"startUrl":[]
+
+
+
+
+
+
+
+}
